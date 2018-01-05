@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CountingChange", "CountingChange\CountingChange.fsproj", "{5A17FC17-17B1-497A-B5FA-8C7F71216689}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CountingChangeTests", "CountingChangeTests\CountingChangeTests.fsproj", "{FCD8C300-D6A7-47FE-AF9F-76CB6D7A69CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A17FC17-17B1-497A-B5FA-8C7F71216689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A17FC17-17B1-497A-B5FA-8C7F71216689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A17FC17-17B1-497A-B5FA-8C7F71216689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A17FC17-17B1-497A-B5FA-8C7F71216689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD8C300-D6A7-47FE-AF9F-76CB6D7A69CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD8C300-D6A7-47FE-AF9F-76CB6D7A69CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD8C300-D6A7-47FE-AF9F-76CB6D7A69CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD8C300-D6A7-47FE-AF9F-76CB6D7A69CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
