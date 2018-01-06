@@ -5,7 +5,7 @@ open System.Collections.Generic
 
 let rec private numberOfCombinations (amount:int) (denominations: int list) (prevCalculatedSolutions:Dictionary<int * Set<int>, int64>) =
     if prevCalculatedSolutions.ContainsKey((amount, Set.ofList denominations)) then 
-        prevCalculatedSolutions.GetValueOrDefault((amount, Set.ofList denominations), 0L)
+        prevCalculatedSolutions.[(amount, Set.ofList denominations)]
     else
         match denominations with 
         | [] ->
