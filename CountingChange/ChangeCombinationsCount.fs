@@ -24,4 +24,4 @@ let rec private numberOfCombinations (amount:int) (denominations: int list) (pre
                 solution
 
 let countChange (amount:int) (denominations: int list) =
-    numberOfCombinations amount (denominations |> List.sortDescending) (new Dictionary<int * Set<int>, int64>())
+    numberOfCombinations amount denominations (new Dictionary<int * Set<int>, int64>())
